@@ -19,7 +19,7 @@ CLASS zdemo_app IMPLEMENTATION.
 
   METHOD get_timestamp.
     GET TIME STAMP FIELD rv_smstl.
-
+" Demo
     try.
     cl_abap_tstmp=>add(
     tstmp = rv_smstl
