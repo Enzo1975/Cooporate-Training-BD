@@ -50,7 +50,7 @@ CLASS zdemo_app IMPLEMENTATION.
             id_user  = sy-uname
           ) ).
 
-
+" I have added this comment
     out->write( itab2 ).
 
     INSERT ztv_test_table FROM TABLE @itab2.
